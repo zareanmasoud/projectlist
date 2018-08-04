@@ -10,6 +10,9 @@ import {loadAuthors} from './actions/authorActions';
 import './styles/styles.css';
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import '../node_modules/toastr/build/toastr.min.css';
+import 'jquery/src/jquery';
+import 'popper.js';
+import '../node_modules/bootstrap/dist/js/bootstrap.min.js';
 
 const store = configureStore();
 store.dispatch(loadProjects());

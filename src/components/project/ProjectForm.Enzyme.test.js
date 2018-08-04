@@ -21,7 +21,7 @@ function setup(saving, deleting) {
 it('renders form and h1', () => {
     const wrapper = setup(false);
     expect(wrapper.find('form').length).toBe(1);
-    expect(wrapper.find('h1').text()).toEqual('ManageProject');
+    expect(wrapper.find('h1').text()).toEqual('Manage Project');
 });
 
 it('save button is labeled "Save" when not saving', () => {

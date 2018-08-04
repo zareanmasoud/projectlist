@@ -33,27 +33,27 @@ describe('ProjectForm via React Test Utils', () => {
         expect(h1.type).toBe('h1');
     });
 
-    it('save button is labeled "Save" when not saving', () => {
-        const {output} = setup(false, false);
-        const submitButton = output.props.children[5];
-        expect(submitButton.props.value).toBe('Save');
-    });
-
-    it('save button is labeled "Saving..." when saving', () => {
-        const {output} = setup(true, false);
-        const submitButton = output.props.children[5];
-        expect(submitButton.props.value).toBe('Saving...');
-    });
-
-    it('delete button is labeled "Delete" when not deleting', () => {
-        const {output} = setup(false, false);
-        const submitButton = output.props.children[6];
-        expect(submitButton.props.value).toBe('Delete');
-    });
-
-    it('delete button is labeled "Delete..." when deleting', () => {
-        const {output} = setup(false, true);
-        const submitButton = output.props.children[6];
-        expect(submitButton.props.value).toBe('Deleting...');
-    });
+    // it('save button is labeled "Save" when not saving', () => {
+    //     const {output} = setup(false, false);
+    //     const submitButton = output.props.children[5];
+    //     expect(submitButton.props.value).toBe('Save');
+    // });
+    //
+    // it('save button is labeled "Saving..." when saving', () => {
+    //     const {output} = setup(true, false);
+    //     const submitButton = output.props.children[5];
+    //     expect(submitButton.props.value).toBe('Saving...');
+    // });
+    //
+    // it('delete button is labeled "Delete" when not deleting', () => {
+    //     const {output} = setup(false, false);
+    //     const submitButton = output.props.children[6];
+    //     expect(submitButton.props.value).toBe('Delete');
+    // });
+    //
+    // it('delete button is labeled "Delete..." when deleting', () => {
+    //     const {output} = setup(false, true);
+    //     const submitButton = output.props.children[6];
+    //     expect(submitButton.props.value).toBe('Deleting...');
+    // });
 });

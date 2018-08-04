@@ -2,15 +2,36 @@
 #app {
     font: 14px 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #4d4d4d;
-    min-width: 550px;
-    max-width: 850px;
-    margin: 0 auto;
 }
 
-a.active {
-    color: orange;
+.main {
+  margin: 30px 0;
 }
 
-nav {
-    padding-top: 20px;
+.add-project {
+  margin-top: 10px;
+}
+
+.project-list {
+  margin-top: 10px;
+}
+
+.about-p {
+  margin-top: 15px;
+}
+
+.form-body {
+  margin-top: 30px;
+}
+
+.delete {
+  margin-left: 5px;
+}
+
+.form-label {
+  text-align: right;
+}
+
+.form-actions {
+  margin-top: 30px;
 }
